@@ -22,5 +22,9 @@
     "testPathIgnorePatterns": [
       "<rootDir>node_modules/"
     ]
+  },
+  "scripts": {
+    "start": "NODE_ENV=development start-storybook -p 9001 -c .storybook",
+    "test": "jest --verbose"
   }
 }
