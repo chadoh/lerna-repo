@@ -5,6 +5,7 @@ import styled, { injectGlobal } from 'styled-components'
 import Home from 'containers/Home'
 import About from 'containers/About'
 import Blog from 'containers/Blog'
+import Camera from 'containers/Camera'
 
 injectGlobal`
   body {
@@ -47,12 +48,14 @@ export default () => (
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/blog">Blog</Link>
+        <Link to="/camera">Camera</Link>
       </nav>
       <div className="content">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/blog" component={Blog} />
+          <Route path="/camera" component={Camera} />
           <Redirect to="/" />
         </Switch>
       </div>

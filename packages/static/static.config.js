@@ -13,6 +13,9 @@ export default {
         path: '/about',
       },
       {
+        path: '/camera',
+      },
+      {
         path: '/blog',
         getProps: () => ({
           posts,
