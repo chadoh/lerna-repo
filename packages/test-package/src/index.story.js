@@ -23,3 +23,8 @@ storiesOf('Button', module)
     </StyledContainer>
   ))
 
+  .add('disabled', () => (
+    <StyledContainer>
+      <Button disabled>loading</Button>
+    </StyledContainer>
+  ))

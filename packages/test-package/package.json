@@ -7,6 +7,7 @@
   "author": "NearForm",
   "dependencies": {
     "react": "^15.6.1",
+    "react-spinkit": "^3.0.0",
     "styled-components": "^2.1.0"
   }
 }
