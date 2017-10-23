@@ -2,6 +2,7 @@
   "name": "thicket-camera",
   "version": "1.0.0",
   "description": "A Camera component for React, used by Thicket",
+  "private": true,
   "main": "lib/index.js",
   "files": [
     "css",

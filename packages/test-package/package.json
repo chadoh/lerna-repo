@@ -4,6 +4,7 @@
   "description": "Test package component",
   "main": "dist/index.js",
   "author": "NearForm",
+  "private": true,
   "dependencies": {
     "react": "^15.6.1",
     "react-spinkit": "^3.0.0",

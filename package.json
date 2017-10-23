@@ -1,4 +1,5 @@
 {
+  "private": true,
   "devDependencies": {
     "@storybook/react": "^3.0.0-alpha.4",
     "babel-cli": "^6.24.1",
@@ -26,5 +27,8 @@
   "scripts": {
     "start": "NODE_ENV=development start-storybook -p 9001 -c .storybook",
     "test": "jest --verbose"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
